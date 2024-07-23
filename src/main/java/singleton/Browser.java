@@ -15,7 +15,7 @@ public class Browser {
     public void setup() {
     	Singleton singletonInstance = Singleton.getInstance();
     	driver = singletonInstance.getDriver();
-    	driver.get("https://maaappssk03t.everi.com/#/login");
+    	driver.get("https://www.google.com/");
     }
 
     @AfterMethod(alwaysRun = true)
