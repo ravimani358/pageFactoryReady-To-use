@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import singleton.Browser;
 
 
-public class buyInChipsPage extends Browser {
+public class buyInChipsPage {
 	
 	WebDriver driver;
 	
@@ -33,7 +33,6 @@ public class buyInChipsPage extends Browser {
 	WebElement redeemAmountOk;
 	
     public buyInChipsPage(WebDriver driver) {
-    	//driver = this.driver;
     	this.driver = driver;
         PageFactory.initElements(driver, this);
     }

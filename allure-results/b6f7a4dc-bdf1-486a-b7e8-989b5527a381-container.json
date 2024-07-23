@@ -1,0 +1,1 @@
+{"uuid":"b6f7a4dc-bdf1-486a-b7e8-989b5527a381","name":"Default suite","children":["0f74f383-c501-4905-8ecf-9baffc357d98"],"befores":[],"afters":[{"name":"teardownSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1721709879151,"stop":1721709879368}],"start":1721709874050,"stop":1721709879371}

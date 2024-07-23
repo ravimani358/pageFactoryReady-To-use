@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import singleton.Browser;
 
-public class colorUpChipsPage extends Browser{
+public class colorUpChipsPage{
 	
 	WebDriver driver;
 
@@ -23,7 +23,6 @@ public class colorUpChipsPage extends Browser{
 	WebElement successOkButton;
 	 
 	public colorUpChipsPage(WebDriver driver) {
-		//driver = this.driver;
 		this.driver = driver;
         PageFactory.initElements(driver, this);
     }

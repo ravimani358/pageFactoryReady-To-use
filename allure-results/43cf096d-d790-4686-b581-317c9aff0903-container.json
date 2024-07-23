@@ -1,0 +1,1 @@
+{"uuid":"43cf096d-d790-4686-b581-317c9aff0903","name":"singleton.Browser.setup","children":["ce8e3f0a-011c-48c6-a89e-e2adf613e025"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1721712508869,"stop":1721712514547}],"afters":[],"start":1721712508868,"stop":1721712514548}

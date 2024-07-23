@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import singleton.Browser;
 
-public class menuPage extends Browser {
+public class menuPage {
 	
 	WebDriver driver;
 
@@ -27,7 +27,6 @@ public class menuPage extends Browser {
 	WebElement reprint;
 	
     public menuPage(WebDriver driver) {
-    	//driver = this.driver;
     	this.driver = driver;
         PageFactory.initElements(driver, this);
     }

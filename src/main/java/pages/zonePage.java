@@ -18,7 +18,6 @@ public class zonePage extends Browser{
 	WebElement nextButton;
 	
     public zonePage(WebDriver driver) {
-    	//driver = this.driver;
     	this.driver = driver;
         PageFactory.initElements(driver, this);
     }

@@ -5,12 +5,9 @@
     <classes>
       <class name="Test_cases.Test_case02">
         <methods>
-          <include name="createDriver"/>
-          <include name="closeBrowser"/>
-          <include name="getWebDriverWait"/>
-          <include name="tearDown"/>
-          <include name="testing"/>
-          <include name="LaunchURL"/>
+          <include name="teardownSuite"/>
+          <include name="setup"/>
+          <include name="Test_case02"/>
         </methods>
       </class> <!-- Test_cases.Test_case02 -->
     </classes>
