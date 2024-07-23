@@ -1,0 +1,4 @@
+Navigate to the main config folder to run the "cmd".
+Then run below mentioned file it will generate the allure results
+
+allure serve ./allure-results
